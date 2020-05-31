@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="rose">#ED4666</color>
+    <color name="rosethree">#48ED4063</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitetwo">#48DFDADA</color>
+    <color name="black">#000</color>
+    <color name="gray">#B8B4B4</color>
+    <color name="grayone">#31BDB7B7</color>
+    <color name="rougeone">#C80724</color>
+    <color name="rouge">#FF4C3B</color>
+    <color name="orangeone">#E6572A</color>
+    <color name="roseone">#D3014B</color>
+    <color name="rougetwo">#C8344A</color>
+    <color name="rosetwo">#510614</color>
+</resources>
