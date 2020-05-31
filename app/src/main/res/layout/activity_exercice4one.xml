@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exercice4one">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="335dp"
+        android:background="@drawable/roundertopexo4"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:scaleType="centerCrop"
+                android:layout_weight="0"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="190dp"
+                android:layout_gravity="left"
+                android:src="@drawable/left"/>
+
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_weight="0"
+                android:layout_gravity="right"
+                android:src="@drawable/replay"/>
+
+            <ImageView
+
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0"
+                android:src="@drawable/barre"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:elevation="5dp"
+            android:background="@drawable/rounderblanexo4"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="40sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:text="1.31"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:text="GB"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="12sp"
+                android:text="Cleanup suggested"/>
+
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+
+            android:layout_width="300dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_height="20dp">
+
+            <View
+                android:layout_width="300dp"
+                android:background="@drawable/roundergrp3"
+                android:layout_height="20dp"/>
+
+            <View
+                android:layout_width="180dp"
+                android:background="@drawable/roundergrp2"
+                android:layout_marginLeft="70dp"
+                android:layout_height="40dp"/>
+
+            <View
+                android:layout_width="100dp"
+                android:background="@drawable/roundergrp1"
+                android:layout_height="50dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="25dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="15dp"
+                    android:background="@drawable/rounderrondnoirexo4"
+                    android:layout_height="15dp"/>
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/rounderblancexo4"
+                    android:layout_height="5dp"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="Used 22 GB"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp">
+
+                <View
+                    android:layout_width="15dp"
+                    android:background="@drawable/rounderrondblueexo4"
+                    android:layout_height="15dp"/>
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/rounderblancexo4"
+                    android:layout_height="5dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="Deletable 31 GB"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/roundercoinnoirexo4"
+                android:text="Can be deleted"
+                android:elevation="1dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/roundergbblueexo4"
+        android:gravity="center"
+        android:layout_marginTop="-61dp"
+        android:layout_marginLeft="60dp"
+        android:elevation="1dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="31.11"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:text="GB"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="-35dp"
+        android:background="@drawable/rounderbgrtwoexo4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:background="@drawable/roundergray"
+                android:orientation="vertical"
+                android:layout_weight="0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:src="@drawable/caches"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="95dp"
+                android:layout_marginLeft="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Junk Caches"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.31 GB"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_weight="0.5">
+
+                <View
+                    android:layout_width="15dp"
+                    android:background="@drawable/rounderrondblueexo4"
+                    android:layout_height="15dp"/>
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/rounderblancexo4"
+                    android:layout_height="5dp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:background="@drawable/roundergray"
+                android:orientation="vertical"
+                android:layout_weight="0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:src="@drawable/data"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="95dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="App data "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total 45.6MB"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:layout_weight="0.5">
+
+                <View
+                    android:layout_width="15dp"
+                    android:background="@drawable/rounderblancexo4"
+                    android:layout_height="15dp"/>
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/roundercoinnoirexo4"
+                    android:layout_height="5dp"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:background="@drawable/roundergray"
+                android:orientation="vertical"
+                android:layout_weight="0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:src="@drawable/circle"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Audio et video"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total 12.6 GB"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/roundercoinnoirexo4"
+                    android:layout_height="5dp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="40dp"
+                android:gravity="center"
+                android:background="@drawable/roundergray"
+                android:orientation="vertical"
+                android:layout_weight="0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:src="@drawable/uninstall"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+
+                android:layout_width="95dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="App uninstall"/>
+
+                <TextView
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+
+
+                <View
+
+
+                    android:layout_width="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/roundercoinnoirexo4"
+                    android:layout_height="5dp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounderbottomexo4"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/suprimer"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:textColor="@color/bluethree"
+                android:text=" Cleanup 1.31 GB"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
