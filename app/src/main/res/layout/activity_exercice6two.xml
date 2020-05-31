@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/rounderorangeexo5"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="20dp"
+            android:text="LOGIN"
+            android:textSize="13sp"
+            android:textStyle="italic"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="75dp"
+            android:layout_gravity="center"
+            android:src="@drawable/learntwo"
+            android:scaleType="centerInside"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Etudier la Bible"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acquerir la parole de Dieu via des video et document"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingBottom="15dp"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/rounder_exoone"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/rounderraduisexo5" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounderorangeexo5" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/rounderraduisexo5" />
+
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="70dp"
+        android:text="GET STARTED"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:background="@drawable/rounderorangeexo5">
+    </Button>
+
+
+
+</LinearLayout>

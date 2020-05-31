@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Exercice6_loveline</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="identifier">Identifiez-vous</string>
+    <string name="deja_inscrit">Deja inscrit ?</string>
+    <string name="conexiontwo">En vous inscrivant vous acceptez nos conditions générales d\'utilisation</string>
+    <string name="bienvenu">Bienvenue pour l\'apprentissage de la Bible.Durant votre étude vous allez beaucoup apprendre sur la parole de DIEU</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="ap_gratuit">Apprendre avec des supports vidéo et des documents sur Bible eLearning </string>
+    <string name="questionnaire">Pourquoi voullez vous suivre des vidéos et des documents parlant de la parole de Dieu</string>
+    <string name="home_second">Home Second</string>
+</resources>
