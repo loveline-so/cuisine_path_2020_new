@@ -1,0 +1,2 @@
+rootProject.name='Exercice7_loveline'
+include ':app'
