@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rounder"
+    tools:context=".Exercice3_twoo">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creat a new account"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/rose"/>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_marginTop="75dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:background="@drawable/rounder_conexion"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/user"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/rosethree"
+            android:textSize="15sp"
+            android:text="Username"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:background="@drawable/rounder_conexion"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/email"/>
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="email"
+            android:textColor="@color/rosethree"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:background="@drawable/rounder_conexion"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/lock"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Your password"
+            android:textColor="@color/rosethree"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:background="@drawable/rounder_conexion"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/lock"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Enter your password again"
+            android:textColor="@color/rosethree"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:elevation="8dp"
+        android:background="@drawable/rounser_connexion2"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGN UP"
+            android:textColor="@color/rose"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:text="ALREADY HAVE AND ACCOUNT ?"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="SIGN IN"
+        android:textColor="@color/rose"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/gray"
+            android:text="f"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Or"
+            android:layout_marginBottom="8sp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/gray"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/gray"
+            android:text="G"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
